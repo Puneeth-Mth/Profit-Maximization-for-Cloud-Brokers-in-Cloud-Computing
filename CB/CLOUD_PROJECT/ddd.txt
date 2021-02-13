@@ -1,0 +1,34 @@
+CSS Templates
+We have created some responsive W3.CSS templates for you to use.
+
+You are free to modify, save, share, and use them in all your projects.
+
+Free CSS Templates!
+
+CSS Exercises and Quiz Test
+Test your CSS skills at W3Schools!
+
+Start CSS Quiz!
+
+Start CSS Exercises!
+
+CSS References
+At W3Schools you will find complete CSS references of all properties and selectors with syntax, examples, browser support, and more.
+
+CSS Properties Reference
+
+CSS Selectors Reference
+
+CSS Functions Reference
+
+CSS Animatable Reference
+
+CSS Aural Reference
+
+CSS Units
+
+CSS Color Reference
+
+CSS Default Values
+
+CSS Browser Support

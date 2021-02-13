@@ -1,0 +1,35 @@
+CSS is a language that describes the style of an HTML document.
+
+CSS describes how HTML elements should be displayed.
+
+This tutorial will teach you CSS from basic to advanced
+
+The HTML Certificate documents your knowledge of HTML.
+
+The CSS Certificate documents your knowledge of advanced CSS.
+
+The JavaScript Certificate documents your knowledge of JavaScript and HTML DOM.
+
+The jQuery Certificate documents your knowledge of jQuery.
+
+The PHP Certificate documents your knowledge of PHP and SQL (MySQL).
+
+The XML Certificate documents your knowledge of XML, XML DOM and XSLT.
+
+The Bootstrap Certificate documents your knowledge of the Bootstrap framework.
+
+
+The HTML Certificate documents your knowledge of HTML.
+
+The CSS Certificate documents your knowledge of advanced CSS.
+
+The JavaScript Certificate documents your knowledge of JavaScript and HTML DOM.
+
+The jQuery Certificate documents your knowledge of jQuery.
+
+The PHP Certificate documents your knowledge of PHP and SQL (MySQL).
+
+The XML Certificate documents your knowledge of XML, XML DOM and XSLT.
+
+The Bootstrap Certificate documents your knowledge of the Bootstrap framework.
+

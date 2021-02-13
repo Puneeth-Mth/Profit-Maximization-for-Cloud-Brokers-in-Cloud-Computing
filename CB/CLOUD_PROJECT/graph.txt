@@ -1,0 +1,59 @@
+<%@page import="java.sql.ResultSet"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="com.dao.AdminDAO"%>
+<!DOCTYPE HTML>
+<html>
+<head>
+<%
+
+String review1=AdminDAO.Reviews1();
+String review2=AdminDAO.Reviews2();
+String review3=AdminDAO.Reviews3();
+String review4=AdminDAO.Reviews4();
+String review5=AdminDAO.Reviews5();
+
+
+
+%>  
+<script>
+window.onload = function () {
+	
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	
+	title:{
+		text:"OverAll Student Reviews"
+	},
+	axisX:{
+		interval: 1
+	},
+	axisY2:{
+		interlacedColor: "rgba(1,77,101,.2)",
+		gridColor: "rgba(1,77,101,.1)",
+		title: "Number of Students"
+	},
+	data: [{
+		type: "bar",
+		name: "companies",
+		axisYType: "secondary",
+		color: "#014D65",
+		dataPoints: [
+			{ y: <%=review1%>, label: "0.0 to 1.0" },
+			{ y: <%=review2%>, label: "1.1 to 2.0" },
+			{ y: <%=review3%>, label: "2.1 to 3.0" },
+			{ y: <%=review4%>, label: "3.1 to 4.0" },
+			{ y: <%=review5%>, label: "4.1 to 5.0" }
+			
+		]
+	}]
+});
+chart.render();
+
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+<script src="AllFiles/JS/canvasjs.min.js"></script>
+</body>
+</html>
